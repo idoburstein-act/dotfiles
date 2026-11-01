@@ -1,0 +1,22 @@
+{
+  "version": 4,
+  "lines": [
+    [
+      { "id": "model", "type": "model", "color": "cyan" },
+      { "id": "effort", "type": "thinking-effort" },
+      { "id": "ctx-pct", "type": "context-percentage", "color": "brightBlack" },
+      { "id": "ctx-len", "type": "context-length", "color": "brightBlack" }
+    ],
+    [
+      { "id": "session-usage", "type": "session-usage", "color": "cyan" },
+      { "id": "session-reset", "type": "reset-timer", "color": "green", "metadata": { "compact": "true" } },
+      { "id": "weekly-usage", "type": "weekly-usage", "color": "yellow" },
+      { "id": "weekly-reset", "type": "weekly-reset-timer", "color": "green", "metadata": { "compact": "true" } }
+    ]
+  ],
+  "flexMode": "full",
+  "compactThreshold": 60,
+  "colorLevel": 3,
+  "defaultPadding": " ",
+  "defaultPaddingSide": "both"
+}
